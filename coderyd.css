@@ -1,1 +1,42 @@
+/* FUENTES IMPORTADAS */
+
+@import url("https://pro.fontawesome.com/releases/v5.15.2/css/all.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+
+/* BAUL PROVISIONAL */
+
+.ryder-baul {
+  display: flex;
+  margin: auto;
+  margin-top: 15px;
+  width: 350px;
+  height: 350px;
+  background: #000;
+  border: 10px solid #080808;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.ryder-baul texto {
+  font: 800 50px "Poppins", san-serif;
+  letter-spacing: .5px;
+  color: #79692f;
+}
+
+.ryder-baul minitexto, minitexto2 {
+  position: absolute;
+  font: 400 9px "Georgia", san-serif;
+  font-style: italic;
+  letter-spacing: .5px;
+  margin-bottom: 190px;
+  margin-right: 140px;
+  color: #cecece;
+}
+
+.ryder-baul minitexto2 {
+  margin-bottom: -190px;
+  margin-right: -140px;
+}
 
