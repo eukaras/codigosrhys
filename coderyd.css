@@ -10,6 +10,50 @@
   --id-ryder: #79692f;
 }
 
+/* FIRMA PROVISIONAL */
+
+.crawfirma { 
+  margin: auto;
+  width: 275px;
+  height: 185px;
+  padding: 10px;
+  background: linear-gradient(to bottom left,#131313, #79692f, #312b16, #060606);
+  margin-top: 15px;
+}
+
+.crawfirma img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 275px;
+  height: 185px;
+  outline: 1px solid #ccc;
+} 
+
+.crawfirma texto {
+  display: block;
+  width: 140px;
+  font: 700 7px "Calibri";
+  letter-spacing: 1px;
+  text-align: justify;
+  text-transform: uppercase;
+  line-height: 12px;
+  margin-left: 25px;
+  margin-top: -80px;
+  color: #dad9d9;
+}
+
+.crawfirma texto enfa {
+  font: 900 25px "Poppins", san-serif;
+  letter-spacing: .5px;
+  line-height: 27px;
+}
+
+.crawfirma texto enfa b {
+  color: #79692f;
+  font-weight: 900;
+}
+
 /* BAUL PROVISIONAL */
 
 .ryder-baul {
