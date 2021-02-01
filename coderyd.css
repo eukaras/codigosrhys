@@ -127,7 +127,7 @@
   color: var(--ryder-bl);
 }
 
-.ryder-post b,strong {
+.ryder-post strong {
   color: var(--ryder-id);
 }
 
