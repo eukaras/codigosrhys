@@ -3,11 +3,13 @@
 @import url("https://pro.fontawesome.com/releases/v5.15.2/css/all.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 /* ROOTS DE COLORES */
 
 :root {
-  --id-ryder: #79692f;
+  --ryder-id: #79692f;
+  --ryder-bl: #9c9c9c;
 }
 
 /* FIRMA PROVISIONAL */
@@ -90,6 +92,52 @@
   margin-right: -140px;
 }
 
+/* TABLILLA MULTI-PROPOSITO */
+
+.ryder-post {
+  margin: auto;
+  width: 370px;
+  padding: 20px;
+  font: 400 11.5px "Roboto Slab", san-serif;
+  line-height: 18px;
+  text-align: justify;
+  color: var(--ryder-bl);
+}
+
+.ryder-post categoria {
+  display: block;
+  text-align: center;
+  font: 400 7.5px "Karla", san-serif;
+  letter-spacing: 1px;  
+}
+
+.ryder-post categoria i {
+  font-size: 7px;
+  padding: 4px;
+  color: var(--ryder-id);
+}
+
+.ryder-post categoria span {
+  font: 800 20px "Poppins", san-serif;
+  color: var(--ryder-id);
+}
+
+.ryder-post u {
+  text-decoration: none;
+  color: var(--ryder-bl);
+}
+
+.ryder-post b,strong {
+  color: var(--ryder-id);
+}
+
+.ryder-post anuncio {
+  margin: auto;
+  display: block;
+  width: 280px;
+  font-size: 11px;
+}
+
 /* CRONOLOGÍA DE RYDER */
 
 .ryder-crono {
@@ -122,12 +170,12 @@
 }
 
 .rycr-con::-webkit-scrollbar-thumb {
-  background: var(--id-ryder);
+  background: var(--ryder-id);
 }
 
 .rycr-con categoria {
   font: 800 18.5px "Poppins", san-serif;
-  color: var(--id-ryder);
+  color: var(--ryder-id);
 }
 
 .rycr-con a {
