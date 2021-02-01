@@ -118,7 +118,7 @@
 }
 
 .rycr-con::-webkit-scrollbar {
-  width: 1px;
+  width: 2px;
 }
 
 .rycr-con::-webkit-scrollbar-thumb {
