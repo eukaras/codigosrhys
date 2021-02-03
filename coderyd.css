@@ -140,22 +140,22 @@
   color: var(--ryder-id);
 }
 
-.ryderhar cat span {
+.ryderhar1 cat span {
   font: 800 20px "Poppins", san-serif;
   color: var(--ryder-id);
 }
 
-.ryderhar u {
+.ryderhar1 u {
   text-decoration: none;
   color: var(--ryder-bl);
 }
 
-.ryderhar strong {
+.ryderhar1 strong {
   color: var(--ryder-id);
   font-weight: 400;
 }
 
-.ryderhar anuncio {
+.ryderhar1 anuncio {
   margin: auto;
   display: block;
   width: 280px;
