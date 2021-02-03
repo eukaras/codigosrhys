@@ -117,7 +117,7 @@
 
 /* TABLILLA MULTI-PROPOSITO */
 
-.ryder-post {
+.ryderpost {
   margin: auto;
   width: 370px;
   padding: 20px;
@@ -127,35 +127,40 @@
   color: var(--ryder-bl);
 }
 
-.ryder-post categoria {
+.ryderpost categoria {
   display: block;
   text-align: center;
   font: 400 7.5px "Karla", san-serif;
   letter-spacing: 1px;  
 }
 
-.ryder-post categoria i {
+.ryderpost categoria i {
   font-size: 7px;
   padding: 4px;
   color: var(--ryder-id);
 }
 
-.ryder-post categoria span {
+.ryderpost categoria span {
   font: 800 20px "Poppins", san-serif;
   color: var(--ryder-id);
 }
 
-.ryder-post u {
+.ryderpost u {
   text-decoration: none;
   color: var(--ryder-bl);
 }
 
-.ryder-post b,strong {
+.ryderpost b {
   color: var(--ryder-id);
   font-weight: 400;
 }
 
-.ryder-post anuncio {
+.ryderpost strong {
+  color: var(--ryder-id);
+  font-weight: 400;
+}
+
+.ryderpost anuncio {
   margin: auto;
   display: block;
   width: 280px;
