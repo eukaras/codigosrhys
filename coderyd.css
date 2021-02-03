@@ -115,58 +115,6 @@
   margin-right: -140px;
 }
 
-/* TABLILLA MULTI-PROPOSITO */
-
-.ryderpost {
-  margin: auto;
-  width: 370px;
-  padding: 20px;
-  font: 400 11.5px "Roboto Slab", san-serif;
-  line-height: 18px;
-  text-align: justify;
-  color: var(--ryder-bl);
-}
-
-.ryderpost categoria {
-  display: block;
-  text-align: center;
-  font: 400 7.5px "Karla", san-serif;
-  letter-spacing: 1px;  
-}
-
-.ryderpost categoria i {
-  font-size: 7px;
-  padding: 4px;
-  color: var(--ryder-id);
-}
-
-.ryderpost categoria span {
-  font: 800 20px "Poppins", san-serif;
-  color: var(--ryder-id);
-}
-
-.ryderpost u {
-  text-decoration: none;
-  color: var(--ryder-bl);
-}
-
-.ryderpost b {
-  color: var(--ryder-id);
-  font-weight: 400;
-}
-
-.ryderpost strong {
-  color: var(--ryder-id);
-  font-weight: 400;
-}
-
-.ryderpost anuncio {
-  margin: auto;
-  display: block;
-  width: 280px;
-  font-size: 11px;
-}
-
 /* CRONOLOGÍA DE RYDER */
 
 .ryder-crono {
