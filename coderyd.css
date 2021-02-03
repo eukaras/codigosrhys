@@ -150,8 +150,9 @@
   color: var(--ryder-bl);
 }
 
-.ryder-post strong {
+.ryder-post b,strong {
   color: var(--ryder-id);
+  font-weight: 400;
 }
 
 .ryder-post anuncio {
