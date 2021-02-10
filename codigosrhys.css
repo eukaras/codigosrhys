@@ -71,3 +71,61 @@
   margin-left: 30px;
   color: #bfb9b9;
 }
+
+/* CRONO */
+
+.crono-rhys {
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 380px;
+  height: 490px;
+  background: #191919e8;
+  outline: 10px solid #191919b3;
+  font: 400 8.5px Georgia;
+  letter-spacing: .5px;
+  color: #bfb9b9;
+}
+
+.crono-rhys2 {
+    margin: auto;
+    position: relative;
+    overflow: auto;
+    top: 20px;
+    width: 320px;
+    height: 430px;
+    padding: 10px;
+}
+
+.crono-rhys2::-webkit-scrollbar {
+  width: 2px;
+}
+
+.crono-rhys2::-webkit-scrollbar-thumb {
+  background: #788267;
+}
+
+.crono-rhys2 b {
+  font: 800 18px "Playfair Display SC";
+  letter-spacing: 1px;
+  color: #788267;
+}
+
+.crono-rhys2 a {
+  text-decoration: none;
+  font: 800 11px "Karla", san-serif;
+  line-height: 25px;
+  color: #ababab;
+}
+
+.crono-rhys2 i {
+  font-size: 10px;
+  padding-right: 5px;
+  color: #788267;
+}
+
+.crono-rhys2 u {
+  text-decoration: none;
+  letter-spacing: .5px;
+  text-transform: lowercase;
+}
